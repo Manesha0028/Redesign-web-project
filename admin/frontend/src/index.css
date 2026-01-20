@@ -1,1 +1,11 @@
 @import "tailwindcss";
+/* src/index.css */
+.sidebar-item-active {
+  background-color: #fff1ed;
+  color: #e75a2d;
+}
+
+.dark .sidebar-item-active {
+  background-color: rgba(231, 90, 45, 0.1);
+  color: #e75a2d;
+}
